@@ -14,12 +14,250 @@
     </style>
 </head>
 <body>
-    <div class="content">
+    <div class="content my-3">
         <h1>Hello All,</h1>
         <button class="btn"> 
             <a href="./page1.html">CLick Me</a>
         </button>
     </div>
-    
+    <div class="pt-5" id="grid">
+        <h4 class="mb-4 px-3">Grid + Filter</h4>
+        <div class="card card-main">
+            <div class="grid-layout p-4">
+                <div class="d-flex gap-2">
+                    <img src="./images/shape-colored.svg" class="ms-3" alt="page logo">
+                    <div class="title">
+                        <h6>عنوان الصفحة</h6>
+                        <span> <a class="bd-link" href="./index.html">الرئيسية </a> <span class="sign">/</span> مسار للصفحة الحالية</span>
+                    </div>
+                </div>
+                <!--<div class="unid">
+              <div class="search ms-3">
+                <img src="./images/search.svg" alt="search">
+                <input type="search" placeholder="البحث..">
+              </div>
+              <button onclick="w3_open()">
+                <span class="filter">التصفية</span>
+                <img src="./images/filter.svg" alt="filter">
+              </button>
+            </div>-->
+            </div>
+        </div>
+        <div class="d-flex flex-wrap align-items-center pt-4">
+            <span class="text-bold">محددات التصفية : </span>
+            <div class="filtered d-flex align-items-center">
+                <span class="filtered-name text-bold">عنوان حقل التصفية : </span>
+                <span class="filtered-value text-bold">القيمة المختارة</span>
+                <img src="./images/x.svg" class="ps-1" alt="remove">
+            </div>
+        </div>
+        <div class="card mt-4">
+            <button class="btn-add">
+                <img class="ms-1" src="./images/plus-circle.svg" alt="plus">
+                <span>زر انشاء</span>
+            </button>
+            <div class="table-layout ">
+                <table class="table table-material">
+                    <thead>
+                        <tr>
+                            <td class="pe-4">
+                                #
+                            </td>
+                            <td>اسم الطلب</td>
+                            <td>نوع الخدمة</td>
+                            <td>تصنيف الخدمة</td>
+                            <td>المرحلة الحالية</td>
+                            <td>تاريخ الطلب</td>
+                            <td>تفعيل / ايقاف</td>
+                            <td>الإجراءات</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="column-title">#</div>
+                                <div class="column-value">1</div>
+                            </td>
+                            <td>
+                                <div class="column-title">اسم الطلب</div>
+                                <div class="column-value">طلب اجازة</div>
+                            </td>
+                            <td>
+                                <div class="column-title">نوع الخدمة</div>
+                                <div class="column-value">الأجازات والأرصدة</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تصنيف الخدمة</div>
+                                <div class="column-value">موارد بشرية</div>
+                            </td>
+                            <td>
+                                <div class="column-title">المرحلة الحالية</div>
+                                <div class="column-value pendding">دراسة مبدئية</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تاريخ الطلب</div>
+                                <div class="column-value"> 2023/09/07 &nbsp; 02:42 م</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تفعيل / ايقاف</div>
+                                <div class="column-value">
+                                    <div class="form-switch switch-layout actions">
+                                        <input class=" ms-2 form-check-input" type="checkbox" role="switch" id="active-1" checked="checked">
+                                        <label class="form-check-label ms-2 none-active" for="active-1"> فعال</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="action-column">
+                                <div class="column-title">الإجراءات</div>
+                                <div class="column-value">
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تقييم ">
+                                        <i class="icon icon-star"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تحميل ">
+                                        <i class="icon icon-download"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="عرض ">
+                                        <i class="icon icon-document-text"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تعديل ">
+                                        <i class="icon icon-pencil"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-danger active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="حذف ">
+                                        <i class="icon icon-trash"></i>
+                                        <!---->
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="column-title">#</div>
+                                <div class="column-value">2</div>
+                            </td>
+                            <td>
+                                <div class="column-title">اسم الطلب</div>
+                                <div class="column-value">طلب اصدار بطاقة</div>
+                            </td>
+                            <td>
+                                <div class="column-title">نوع الخدمة</div>
+                                <div class="column-value">البيانات الوظيفية والشخصية</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تصنيف الخدمة</div>
+                                <div class="column-value">موارد بشرية</div>
+                            </td>
+                            <td>
+                                <div class="column-title">المرحلة الحالية</div>
+                                <div class="column-value reject">رفض الطلب</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تاريخ الطلب</div>
+                                <div class="column-value"> 2023/09/07 &nbsp; 02:42 م</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تفعيل / ايقاف</div>
+                                <div class="column-value">
+                                    <div class="form-switch switch-layout actions">
+                                        <input class=" ms-2 form-check-input" type="checkbox" role="switch" id="none-active">
+                                        <label class="form-check-label ms-2 none-active" for="none-active">غير فعال</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="action-column">
+                                <div class="column-title">الإجراءات</div>
+                                <div class="column-value">
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تقييم ">
+                                        <i class="icon icon-star"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تحميل ">
+                                        <i class="icon icon-download"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="عرض ">
+                                        <i class="icon icon-document-text"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تعديل ">
+                                        <i class="icon icon-pencil"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-danger active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="حذف ">
+                                        <i class="icon icon-trash"></i>
+                                        <!---->
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="column-title">#</div>
+                                <div class="column-value">3</div>
+                            </td>
+                            <td>
+                                <div class="column-title">اسم الطلب</div>
+                                <div class="column-value">طلب تقييم سنوي</div>
+                            </td>
+                            <td>
+                                <div class="column-title">نوع الخدمة</div>
+                                <div class="column-value">البيانات الوظيفية والشخصية</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تصنيف الخدمة</div>
+                                <div class="column-value">التقييم السنوي</div>
+                            </td>
+                            <td>
+                                <div class="column-title">المرحلة الحالية</div>
+                                <div class="column-value accept">تمت الموافقة</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تاريخ الطلب</div>
+                                <div class="column-value"> 2023/09/07 &nbsp; 02:42 م</div>
+                            </td>
+                            <td>
+                                <div class="column-title">تفعيل / ايقاف</div>
+                                <div class="column-value">
+                                    <div class="form-switch switch-layout actions">
+                                        <input class=" ms-2 form-check-input" type="checkbox" role="switch" id="active-2" checked="checked">
+                                        <label class="form-check-label ms-2 none-active" for="active-2"> فعال</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="action-column">
+                                <div class="column-title">الإجراءات</div>
+                                <div class="column-value">
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تقييم ">
+                                        <i class="icon icon-star"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تحميل ">
+                                        <i class="icon icon-download"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="عرض ">
+                                        <i class="icon icon-document-text"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-primary active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="تعديل ">
+                                        <i class="icon icon-pencil"></i>
+                                        <!---->
+                                    </span>
+                                    <span class="btn btn-outline-danger active-action grid-tooltip-container" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-custom-class="cst-tooltip" data-bs-title="حذف ">
+                                        <i class="icon icon-trash"></i>
+                                        <!---->
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
