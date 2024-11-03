@@ -1,24 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 1</title>
-    <link rel="stylesheet" href="https://testing-convert-my-static-files-to-cdn-link-8rx2satmp.vercel.app/assets/css/boostrap.v1.css"/>
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://testing-convert-my-static-files-to-cdn-link-8rx2satmp.vercel.app/assets/css/boostrap.v1.css"
+    />
+  </head>
+  <body>
     <h1 class="text-success">Page 1</h1>
     <button class="btn btn-primary">Go Back</button>
-    <div class="mb-3">
-        <label class="mb-2" for="startDate">
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <div class="mb-3">
+          <label class="mb-2" for="startDate">
             اختيار من قائمة منسدلة <span class="text-muted">(اختياري)</span>
-        </label>
-        <select class="form-control form-select " aria-label="Default select example">
+          </label>
+          <select
+            class="form-control form-select"
+            aria-label="Default select example"
+          >
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
-        </select>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="mb-3 position-relative">
+          <label class="mb-2" for="startDate">عنصر ادخال تاريخ</label>
+          <input
+            class="datepicker form-control hasDatepicker"
+            data-date-format="mm/dd/yyyy"
+            id="dp1730646792348"
+          />
+          <img class="calender-image" src="./images/calendar.svg" alt="" />
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="mb-3 position-relative">
+          <label class="mb-2" for="startDate">عنصر ادخال رابط</label>
+          <input type="text" class="form-control calender" />
+          <div class="icon-container input-link">
+            <img src="./images/Vector.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="col-md-6 col-12">
+            <label class="mb-2" for="startDate">اختيار عنصر</label>
+            <div class="d-flex gap-2">
+                <div class="form-check check-radio">
+                    <input class="form-check-input input-check" type="radio" id="flexRadioDefault1" name="flexRadioDefault">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        نعم
+                    </label>
+                </div>
+                <div class="form-check check-radio">
+                    <input class="form-check-input input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked="">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        لا
+                    </label>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M8.62212 10.4888H7.9999V7.9999H7.37768M7.9999 5.51101H8.00612M13.5999 7.9999C13.5999 11.0927 11.0927 13.5999 7.9999 13.5999C4.90711 13.5999 2.3999 11.0927 2.3999 7.9999C2.3999 4.90711 4.90711 2.3999 7.9999 2.3999C11.0927 2.3999 13.5999 4.90711 13.5999 7.9999Z" stroke="#E11D48" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span class="error-msg mb-2">يرجى الاجابة على هذا السؤال</span>
+        </div>
+      </div>
+      <div class="col-md-8 col-12">
+        <div class="col-md-12 col-12">
+            <label class="mb-2" for="">
+                المرفقات قبل الرفع<span class="text-muted">
+                    ( نص يوضح
+                    المرفقات)
+                </span>
+            </label>
+            <div class="mb-3 input-file " id="input-file">
+                <label for="inputTag" class="inputTag">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 16C4.79086 16 3 14.2091 3 12C3 10.0929 4.33457 8.4976 6.12071 8.09695C6.04169 7.74395 6 7.37684 6 7C6 4.23858 8.23858 2 11 2C13.4193 2 15.4373 3.71825 15.9002 6.00098C15.9334 6.00033 15.9666 6 16 6C18.7614 6 21 8.23858 21 11C21 13.419 19.2822 15.4367 17 15.9M15 13L12 10M12 10L9 13M12 10L12 22" stroke="#0F172A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <br>
+                    <span class="gray">تحميل ملفك</span> <span class="black">أو اسحب ملفك هنا </span><br>
+                    <span class="gray">يصل حجم الملف الي 5 ميجابايت png, jpg, gif</span>
+
+                    <input class="file" id="inputTag" type="file" placeholder="">
+                    <br>
+                    <span id="imageName"></span>
+                </label>
+            </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
