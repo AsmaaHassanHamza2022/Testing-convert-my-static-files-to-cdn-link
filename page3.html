@@ -13,12 +13,27 @@
 <link rel="stylesheet" href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/fonts.v1.css">
 </head>
 <body>
-  <my-app>
-    <img src="./assets/images/background.jpg"/>
-        <h1>Hello ya user Asmaaaaaaaaaaaaa</h1>
+    <my-app inHomePage="true" lang="en">
+      <!-- <div class="card bg-white">
+      <img src="./assets/images/background.jpg"/>
+      <div class="info my-3 p-2">
+        <h1>Heading ....</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aperiam voluptatum autem reprehenderit quia ratione rerum maxime voluptate delectus. Doloremque dolorum sed veniam eveniet omnis excepturi eum optio impedit aperiam.</p>
-      </my-app>
+      </div>
+
+        </div> -->
+        </my-app>
+ 
+  
       <!-- <script src="https://unpkg.com/@webcomponents/custom-elements@1.4.3/custom-elements.min.js"></script> -->
+    
+    <script>
+      const event = new CustomEvent('valueChange', { detail: {inHomePage:true} });
+      document.dispatchEvent(event);
+      setTimeout(()=>{
+        document.dispatchEvent(event);
+      },10)
+    </script>
     <script src="./assets/js/main-with-prayer.js"></script>
 </body>
 </html>
