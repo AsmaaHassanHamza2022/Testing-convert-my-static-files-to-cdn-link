@@ -48,5 +48,8 @@
   "CMSService::EmployeeGuide:OfficeNo": "رقم المكتب",
   "CMSService::EmployeeGuide:VactionFrom": "الإجازة من",
   "CMSService::EmployeeGuide:VactionTo": "الإجازة إلى",
-  "CMSService::EmployeeGuide:Delegator": "المفوّض"
+  "CMSService::EmployeeGuide:Delegator": "المفوّض",
+  "CMSService::Customization:Lang":"اللغة",
+  "CMSService::EnglishLanguage":"English",
+  "CMSService::ArabicLanguage":"عربي"
 }

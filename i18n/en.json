@@ -48,5 +48,8 @@
  "CMSService::EmployeeGuide:OfficeNo": "Office No",
  "CMSService::EmployeeGuide:VactionFrom": "Vacation From",
  "CMSService::EmployeeGuide:VactionTo": "Vacation To",
- "CMSService::EmployeeGuide:Delegator": "Delegator"
+ "CMSService::EmployeeGuide:Delegator": "Delegator",
+ "CMSService::Customization:Lang":"language",
+ "CMSService::EnglishLanguage":"English",
+ "CMSService::ArabicLanguage":"عربي"
 }
