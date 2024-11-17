@@ -28,7 +28,7 @@
       <!-- <script src="https://unpkg.com/@webcomponents/custom-elements@1.4.3/custom-elements.min.js"></script> -->
     
     <script>
-      const event = new CustomEvent('valueChange', { detail: {inHomePage:true} });
+      const event = new CustomEvent('valueChange', { detail: {inHomePage:false} });
       document.dispatchEvent(event);
       setTimeout(()=>{
         document.dispatchEvent(event);
