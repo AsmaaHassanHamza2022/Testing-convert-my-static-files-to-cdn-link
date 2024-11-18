@@ -65,5 +65,7 @@
   "CMSService::Footer:Support": "الدعم",
   "CMSService::Footer:Phone": "الهاتف",
   "CMSService::Footer:Email": "البريد الإلكتروني",
-  "::Copy": "نسخ"
+  "::Copy": "نسخ",
+  "CMSService::Footer:title":"معلومات الاتصال"
+
 }
