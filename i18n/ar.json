@@ -1,5 +1,5 @@
 {
-  "CMSService::PrayerAzan": "وقت الأذان",
+ "CMSService::PrayerAzan": "وقت الأذان",
   "CMSService::PrayerFajr": "الفجر",
   "CMSService::PrayerSunRises": "الشروق",
   "CMSService::PrayerDuhr": "الظهر",
@@ -51,5 +51,10 @@
   "CMSService::EmployeeGuide:Delegator": "المفوّض",
   "CMSService::Customization:Lang":"اللغة",
   "CMSService::EnglishLanguage":"English",
-  "CMSService::ArabicLanguage":"عربي"
+  "CMSService::ArabicLanguage":"عربي",
+  "CMSService::HomeProfile": "الملف الشخصي",
+  "CMSService::HomeMyDashboard": "لوحة التحكم الخاصة بي",
+  "CMSService::HomeMyTasks": "مهامي",
+  "CMSService::HomeMyRequests": "طلباتي",
+  "CMSService::HomeLogout": "تسجيل الخروج"
 }

@@ -51,5 +51,11 @@
  "CMSService::EmployeeGuide:Delegator": "Delegator",
  "CMSService::Customization:Lang":"language",
  "CMSService::EnglishLanguage":"English",
- "CMSService::ArabicLanguage":"عربي"
+ "CMSService::ArabicLanguage":"عربي",
+ "CMSService::HomeProfile": "Profile",
+ "CMSService::HomeMyDashboard": "My Dashboard",
+ "CMSService::HomeMyTasks": "My Tasks",
+ "CMSService::HomeMyRequests": "My Requests",
+ "CMSService::HomeLogout": "Logout"
+
 }
