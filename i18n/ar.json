@@ -1,5 +1,5 @@
 {
- "CMSService::PrayerAzan": "وقت الأذان",
+  "CMSService::PrayerAzan": "وقت الأذان",
   "CMSService::PrayerFajr": "الفجر",
   "CMSService::PrayerSunRises": "الشروق",
   "CMSService::PrayerDuhr": "الظهر",
@@ -56,5 +56,14 @@
   "CMSService::HomeMyDashboard": "لوحة التحكم الخاصة بي",
   "CMSService::HomeMyTasks": "مهامي",
   "CMSService::HomeMyRequests": "طلباتي",
-  "CMSService::HomeLogout": "تسجيل الخروج"
+  "CMSService::HomeLogout": "تسجيل الخروج",
+  "CMSService::Hello": "مرحبًا",
+  "CMSService::Footer:RequestHint": "انقر لتقديم طلب",
+  "CMSService::Footer:NotAvailable": "هذه الخدمة غير متوفرة",
+  "CMSService::Footer:Request": "طلب",
+  "CMSService::Footer:TechnicalSupport": "الدعم الفني",
+  "CMSService::Footer:Support": "الدعم",
+  "CMSService::Footer:Phone": "الهاتف",
+  "CMSService::Footer:Email": "البريد الإلكتروني",
+  "CMSService::Copy": "نسخ"
 }

@@ -56,6 +56,15 @@
  "CMSService::HomeMyDashboard": "My Dashboard",
  "CMSService::HomeMyTasks": "My Tasks",
  "CMSService::HomeMyRequests": "My Requests",
- "CMSService::HomeLogout": "Logout"
+ "CMSService::HomeLogout": "Logout",
+ "CMSService::Hello": "Hello",
+ "CMSService::Footer:RequestHint": "Click to make a request",
+ "CMSService::Footer:NotAvailable": "This service is not available",
+ "CMSService::Footer:Request": "Request",
+ "CMSService::Footer:TechnicalSupport": "Technical Support",
+ "CMSService::Footer:Support": "Support",
+ "CMSService::Footer:Phone": "Phone",
+ "CMSService::Footer:Email": "Email",
+ "CMSService::Copy": "Copy"
 
 }
