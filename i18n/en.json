@@ -65,6 +65,6 @@
  "CMSService::Footer:Support": "Support",
  "CMSService::Footer:Phone": "Phone",
  "CMSService::Footer:Email": "Email",
- "CMSService::Copy": "Copy"
+ "::Copy": "Copy"
 
 }
