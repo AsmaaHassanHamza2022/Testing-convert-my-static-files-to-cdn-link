@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/bootstrap-light.rtl.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/layout-bundle.rtl.css"/>
+<link
+  rel="stylesheet"
+  href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/ng-bundle.rtl.css"
+/>
+<link
+rel="stylesheet"
+href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/font-bundle.rtl.css"/>
+</head>
+<body>
+    <my-app inHomePage="true" lang="en">
+      <div class="card bg-white">
+      <img src="./assets/images/background.jpg"/>
+      <div class="info my-3 p-2">
+        <h1>Heading ....</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aperiam voluptatum autem reprehenderit quia ratione rerum maxime voluptate delectus. Doloremque dolorum sed veniam eveniet omnis excepturi eum optio impedit aperiam.</p>
+      </div>
+
+        </div>
+        </my-app>
+ 
+  
+      <!-- <script src="https://unpkg.com/@webcomponents/custom-elements@1.4.3/custom-elements.min.js"></script> -->
+    
+    <script>
+      const event = new CustomEvent('valueChange', { detail: {inHomePage:false} });
+      document.dispatchEvent(event);
+      setTimeout(()=>{
+        document.dispatchEvent(event);
+      },10)
+    </script>
+        <script type="module" src="https://testing-convert-my-static-files-to-cdn-link.vercel.app/portal/main.js"></script>
+
+</body>
+</html>

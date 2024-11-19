@@ -66,7 +66,13 @@
  "CMSService::Footer:Phone": "Phone",
  "CMSService::Footer:Email": "Email",
  "::Copy": "Copy",
- "CMSService::Footer:title":"Contact Information"
+ "CMSService::Footer:title":"Contact Information",
+ "NotificationService::Notifications:NoNotifications": "No notifications available.",
+  "NotificationService::Notifications:ClickToShowAll": "Click here to view all notifications.",
+  "CMSService::HomeSelectAll": "Select all",
+  "CMSService::HomeSelectAsReadable": "Mark all as readable",
+  "CMSService::HomeShowAll": "Show all notifications"
+ 
 
 
 }

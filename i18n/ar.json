@@ -66,6 +66,11 @@
   "CMSService::Footer:Phone": "الهاتف",
   "CMSService::Footer:Email": "البريد الإلكتروني",
   "::Copy": "نسخ",
-  "CMSService::Footer:title":"معلومات الاتصال"
+  "CMSService::Footer:title":"معلومات الاتصال",
+  "NotificationService::Notifications:NoNotifications": "لا توجد إشعارات.",
+  "NotificationService::Notifications:ClickToShowAll": "انقر هنا لعرض جميع الإشعارات.",
+  "CMSService::HomeSelectAll":  "تحديد الكل",
+  "CMSService::HomeSelectAsReadable":  "تحديد الكل كمقروء" ,
+  "CMSService::HomeShowAll": "عرض جميع الاشعارات"
 
 }
