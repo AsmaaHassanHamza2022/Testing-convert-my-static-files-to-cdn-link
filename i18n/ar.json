@@ -71,6 +71,9 @@
   "NotificationService::Notifications:ClickToShowAll": "انقر هنا لعرض جميع الإشعارات.",
   "CMSService::HomeSelectAll":  "تحديد الكل",
   "CMSService::HomeSelectAsReadable":  "تحديد الكل كمقروء" ,
-  "CMSService::HomeShowAll": "عرض جميع الاشعارات"
+  "CMSService::HomeShowAll": "عرض جميع الاشعارات",
+  "CMSService.Customization.Title": "التخصيص",
+  "CMSService.Customization.ViewAttendance": "عرض معلومات الحضور والإجازات",
+  "CMSService.Customization.ViewTask": "عرض مهامي ومهام الفريق"
 
 }
