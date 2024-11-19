@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+  <head>
+    <meta charset="utf-8">
+    <title>Portal</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+      #lp-page-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        user-select: none;
+        z-index: 9999999;
+        background: #7e8082;
+        transition: background 0.3s ease-out;
+      }
+
+      #lp-page-loader:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: calc(50% - 79px);
+        top: calc(50% - 50px);
+        width: 158px;
+        height: 100px;
+        /* border: 4px solid #fff; */
+        opacity: 0.7;
+        /* border-top-color: transparent; */
+        /* border-radius: 50%; */
+        /* animation: spin 0.8s linear infinite; */
+      }
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/bootstrap-light.rtl.css">
+    <link rel="stylesheet" href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/layout-bundle.rtl.css">
+    <link rel="stylesheet" href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/ng-bundle.rtl.css">
+    <link rel="stylesheet" href="https://testing-convert-my-static-files-to-cdn-link.vercel.app/assets/css/font-bundle.rtl.css">
+    
+  <style>@charset "UTF-8";:root{--neutral-900:#0F172A;--neutral-800:#1E293B;--neutral-700:#0F172A;--neutral-600:#475569;--neutral-500:#64748B;--neutral-400:#94A3B8;--neutral-300:#CBD5E1;--neutral-200:#E2E8F0;--neutral-100:#F1F5F9;--neutral-50:#F8FAFC;--basic-black:#000000;--basic-white:#FFFFFF;--primary-100:#000062;--primary-75:#404089;--primary-50:#8080B1;--primary-25:#BFBFD7;--primary-6:#F0F0F6;--secondary-bright-blue-100:#0000FF;--secondary-bright-blue-75:#4040FF;--secondary-bright-blue-50:#8080FF;--secondary-bright-blue-25:#BFBFFF;--secondary-light-blue-100:#00D0FF;--secondary-light-blue-75:#42DCFF;--secondary-light-blue-50:#80EAFF;--secondary-light-blue-25:#BDF4FF;--secondary-dark-purple-100:#5E1AD5;--secondary-dark-purple-75:#8653E0;--secondary-dark-purple-50:#AF8DEB;--secondary-dark-purple-25:#D7C6F4;--secondary-light-purple-100:#7F92FF;--secondary-light-purple-75:#9FADFF;--secondary-light-purple-50:#BFC8FF;--secondary-light-purple-25:#DFE4FF;--secondary-teal-100:#00A0A0;--secondary-teal-75:#40B8B8;--secondary-teal-50:#80D0D0;--secondary-teal-25:#BFE7E7;--secondary-yellow-100:#FFC800;--secondary-yellow-75:#FFD640;--secondary-yellow-50:#FFE380;--secondary-yellow-25:#FFF1BF;--status-danger-600:#E11D48;--status-danger-400:#FB7185;--status-danger-50:#FFF1F2;--status-warning-600:#D97706;--status-warning-400:#F59E0B;--status-warning-100:#FEF3C7;--status-info-600:#0284C7;--status-info-400:#38BDF8;--status-info-100:#E0F2FE;--status-success-600:#0D9488;--status-success-400:#2DD4BF;--status-success-50:#F0FDFA;--text-title:#000062;--text-body:#1E293B;--text-placeholder:#94A3B8;--gradiants-primary:linear-gradient(180deg, #3830A3 0%, #A6B5FC 100%);--gradiants-secondary:linear-gradient(180deg, #6B21A8 0%, #E8D6FF 100%);--gradiants-line:linear-gradient(90deg, #000062 0%, #5E1AD5 25%, #00F 75%, #00D0FF 100%);--gradiants-line-reverse:linear-gradient(90deg, #00D0FF 0%, #00F 25%, #5E1AD5 75%, #000062 100%);--z-index-background:-1;--z-index-carousel-layer:95;--z-index-side-layer:96;--z-index-bottom-layer:97;--z-index-header-dropdown:98;--z-index-main-menu:99;--z-index-full-layer:100;--z-index-relative-child:1;--z-index-relative-child-second:2;--z-index-relative-child-third:3;--z-index-relative-child-forth:4;--z-index-fixed-buttons-right:49;--z-index-fixed-buttons-left:49}body{background-color:#fff;overflow-x:hidden}:root{--bs-modal-header-padding:0px !important}</style><link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.css"></noscript></head>
+  <body>
+    <shared-layout></shared-layout>
+    <!-- <app-cst-workspace-root></app-cst-workspace-root>
+    <div id="lp-page-loader"></div> -->
+  <script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script></body>
+</html>
