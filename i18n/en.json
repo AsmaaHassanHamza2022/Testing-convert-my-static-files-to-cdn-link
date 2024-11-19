@@ -72,9 +72,9 @@
   "CMSService::HomeSelectAll": "Select all",
   "CMSService::HomeSelectAsReadable": "Mark all as readable",
   "CMSService::HomeShowAll": "Show all notifications",
-  "CMSService.Customization.Title": "Customization",
-  "CMSService.Customization.ViewAttendance": "View Attendance and Leave Information",
-  "CMSService.Customization.ViewTask": "View My and Team Tasks"
+  "CMSService::Customization:Title": "Customization",
+  "CMSService::Customization:ViewAttendance": "View Attendance and Leave Information",
+  "CMSService::Customization:ViewTask": "View My and Team Tasks"
  
 
 
