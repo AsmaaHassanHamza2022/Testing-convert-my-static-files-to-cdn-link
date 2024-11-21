@@ -119,6 +119,8 @@
 "CMSService::Menu:FAQs":"FAQs",
 "CMSService::Contactus":"Contactus",
 "CMSService::Menu:Announcements":"Announcements",
-"CMSService::Menu:HRRequests":"HRRequests"
+"CMSService::Menu:HRRequests":"HRRequests",
+"::Copy":"Copy",
+ "::Copied":"Copied"
 
 }

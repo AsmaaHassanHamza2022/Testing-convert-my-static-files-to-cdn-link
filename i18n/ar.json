@@ -105,6 +105,8 @@
     "CMSService::Menu:SuspendedDocumentLibrary": "مكتبة الوثائق المعلقة",
     "CMSService::Menu:MediaCenterSetting": "إعدادات المركز الإعلامي",
     "CMSService::Menu:CalenderSetting": "إعدادات التقويم",
-    "CMSService::Menu:NewsSetting": "إعدادات الأخبار"  
+    "CMSService::Menu:NewsSetting": "إعدادات الأخبار"  ,
+     "::Copy":" نسخ",
+    "::Copied":"تم النسخ"
 }
 
