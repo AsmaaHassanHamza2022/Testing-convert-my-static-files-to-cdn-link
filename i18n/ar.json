@@ -106,7 +106,10 @@
     "CMSService::Menu:MediaCenterSetting": "إعدادات المركز الإعلامي",
     "CMSService::Menu:CalenderSetting": "إعدادات التقويم",
     "CMSService::Menu:NewsSetting": "إعدادات الأخبار"  ,
-     "::Copy":" نسخ",
-    "::Copied":"تم النسخ"
+    "::Copy":" نسخ",
+    "::Copied":"تم النسخ",
+    "::FromHere":"من هنا"
+
+
 }
 

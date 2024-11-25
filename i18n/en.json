@@ -121,6 +121,8 @@
 "CMSService::Menu:Announcements":"Announcements",
 "CMSService::Menu:HRRequests":"HRRequests",
 "::Copy":"Copy",
- "::Copied":"Copied"
+ "::Copied":"Copied",
+ "::FromHere":"From Here"
+ 
 
 }
